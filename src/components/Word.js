@@ -13,7 +13,7 @@ export default function Word(){
 
     useEffect(() => {
          async function fetchData(){
-            const response = await axios.get("https://opendict.korean.go.kr/api/search/api/search?certkey_no=3972&key=48F654358751E1A6946C7C9B8A6164CD&target_type=search&req_type=json&part=word&q="+ word[word.length - 1] + "&sort=dict&start=1&num=10&advanced=y&pos=1");
+            const response = await axios.get("https://opendict.korean.go.kr/api/search?certkey_no=4082&key=7C0D6B2BE5A04149309C92F60A3564B7&target_type=search&req_type=json&part=word&q="+ word[word.length - 1] + "&sort=dict&start=1&num=10");
             if(response.data.channel.total === 0) {
                 const arr = rem(word);
                 setWord(prev => arr);
