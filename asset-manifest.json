@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wordchain/static/css/main.bc0c8225.css",
-    "main.js": "/wordchain/static/js/main.105d4c99.js",
+    "main.js": "/wordchain/static/js/main.c5d1b679.js",
     "static/js/787.722bf49b.chunk.js": "/wordchain/static/js/787.722bf49b.chunk.js",
     "index.html": "/wordchain/index.html",
     "main.bc0c8225.css.map": "/wordchain/static/css/main.bc0c8225.css.map",
-    "main.105d4c99.js.map": "/wordchain/static/js/main.105d4c99.js.map",
+    "main.c5d1b679.js.map": "/wordchain/static/js/main.c5d1b679.js.map",
     "787.722bf49b.chunk.js.map": "/wordchain/static/js/787.722bf49b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc0c8225.css",
-    "static/js/main.105d4c99.js"
+    "static/js/main.c5d1b679.js"
   ]
 }
