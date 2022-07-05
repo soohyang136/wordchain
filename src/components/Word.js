@@ -63,7 +63,7 @@ export default function Word(){
             const lastword = word[word.length - 1];
             const lastspelling = lastword.slice(-1)[0];
             console.log(change[lastspelling]);
-            if(lastspelling === e.target.value[0] || change[lastspelling] !== ""){
+            if(lastspelling === e.target.value[0] || change[lastspelling]){
                 let flag = true;
                 for(let i = 0; i < word.length; i++){
                     if(word[i] === e.target.value){
